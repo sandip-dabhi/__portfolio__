@@ -518,7 +518,6 @@
             font-weight: 600;
         }
 
-        /* Certifications Section */
         #certifications {
             background: linear-gradient(to bottom, #e2e8f0, #edf2f7);
         }
@@ -552,7 +551,6 @@
             margin-top: 10px;
         }
 
-        /* Projects Section */
         #projects {
             background: #fff;
         }
@@ -626,7 +624,6 @@
             margin-top: auto;
         }
 
-        /* Experience Section */
         #experience {
             background: linear-gradient(to bottom, #edf2f7, #e2e8f0);
         }
@@ -678,7 +675,6 @@
             font-size: 1.2rem;
         }
 
-        /* Contact Section */
         #contact {
             background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
             color: #fff;
@@ -798,7 +794,7 @@
             box-shadow: 0 8px 20px rgba(49, 130, 206, 0.4);
         }
 
-        /* Footer */
+  
         footer {
             background: #1a202c;
             padding: 50px 0 30px;
@@ -837,7 +833,7 @@
             font-size: 0.95rem;
         }
 
-        /* Loader */
+    
         #loader {
             position: fixed;
             top: 0;
@@ -893,7 +889,6 @@
             }
         }
 
-        /* Responsive Design */
         @media (max-width: 992px) {
             .hero-content {
                 flex-direction: column;
