@@ -1,5 +1,4 @@
-
-        window.addEventListener('load', function() {
+ window.addEventListener('load', function() {
             setTimeout(function() {
                 document.getElementById('loader').style.opacity = '0';
                 document.getElementById('loader').style.visibility = 'hidden';
@@ -8,14 +7,12 @@
 
         const hamburger = document.getElementById('hamburger');
         const navLinks = document.getElementById('navLinks');
-
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             hamburger.innerHTML = navLinks.classList.contains('active') 
                 ? '<i class="fas fa-times"></i>' 
                 : '<i class="fas fa-bars"></i>';
         });
-
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
@@ -37,7 +34,6 @@
                 }
             });
         });
-
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
@@ -50,7 +46,6 @@
                 alert('Please fill in all fields');
                 return;
             }
-            
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
                 alert('Please enter a valid email address');
@@ -90,7 +85,6 @@
                 }
             });
         }
-
         window.addEventListener('load', animateOnScroll);
         window.addEventListener('scroll', animateOnScroll);
     
